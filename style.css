@@ -3,7 +3,8 @@ p {
 }
 
 html {
-    background-color: antiquewhite;
+    background-color: lightgray;
+    padding: 10px;
 }
 
 #me {
@@ -12,10 +13,15 @@ html {
 }
 
 #intro-div {
-    background-color: cyan;
+    background-color: lightsteelblue;
     text-align: center;
 }
 
 footer {
-    background-color: lightcoral;
+    background-color: lightsteelblue;
+}
+
+div {
+    padding: 20px;
+    width: 100%;
 }
