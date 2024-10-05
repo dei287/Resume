@@ -10,6 +10,7 @@ html {
 #me {
     height: 200px;
     width: 200px;
+    border-radius: 50%;
 }
 
 #intro-div {
@@ -19,9 +20,11 @@ html {
 
 footer {
     background-color: lightsteelblue;
+    border-radius: 10px;
 }
 
 div {
     padding: 20px;
     width: 100%;
+    border-radius: 10px;
 }
