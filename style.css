@@ -11,6 +11,11 @@ html {
     width: 200px;
 }
 
-#intro {
-    color: darkred;
+#intro-div {
+    background-color: cyan;
+    text-align: center;
+}
+
+footer {
+    background-color: lightcoral;
 }
