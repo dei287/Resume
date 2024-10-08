@@ -10,7 +10,7 @@ html {
 #me {
     height: 200px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 #intro-div {
@@ -27,4 +27,40 @@ div {
     padding: 20px;
     width: 100%;
     border-radius: 10px;
+}
+
+.header {
+    text-align: left;
+}
+
+@media (max-width: 680px) {
+
+    #me {
+    border-radius: 50%;
+    }
+
+    .summary {
+        text-align: justify;
+        
+    }
+
+    html {
+        background-color: lightsteelblue;
+        padding: 10px;
+    }
+
+    #intro-div {
+        background-color: lightgray;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: lightgray;
+        border-radius: 10px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
 }
