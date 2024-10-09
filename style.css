@@ -11,11 +11,16 @@ html {
     height: 200px;
     width: 200px;
     border-radius: 10px;
+    justify-content: center;
 }
 
 #intro-div {
     background-color: lightsteelblue;
     text-align: center;
+}
+
+.header-name {
+    display: block;
 }
 
 footer {
@@ -33,15 +38,18 @@ div {
     text-align: left;
 }
 
+.container {
+    display: inline-flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
 @media (max-width: 680px) {
 
     #me {
     border-radius: 50%;
-    }
-
-    .summary {
-        text-align: justify;
-        
     }
 
     html {
